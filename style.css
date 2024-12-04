@@ -1,0 +1,590 @@
+*{margin: 0; padding: 0;
+    font-family:'quicksand';
+    color:white;  
+}
+body{
+    min-height: 100vh;
+    background-color: #f2b951;
+    border: black;
+}
+header{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 7vh;
+    position: relative;
+    position: fixed;
+}
+header nav ul li{
+    float: left;
+    list-style: none;
+    margin: 20px 30px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-family: 'quicksand';
+    font-size: 1.3em;
+}
+header nav ul li a:hover{
+    color: #e76db9
+}
+#logo{   
+    height: 7vh;
+    position: absolute;
+    left: 80%;
+}
+#logo form{
+    width: 100%;
+    margin:15px;
+}
+#logo form input {
+    font-size: 1.5em;
+    color: black;
+    font-family: 'quicksand';
+}
+#logo form button{
+    padding: 6px 15px;
+    position: absolute;
+    top: 5px;
+    margin: 10px;
+    color: black;
+    font-family: 'quicksand';
+}
+#logo form button:hover{
+    background-color: #e76db9;
+    color: white;
+}
+#inicio{
+    width: 100%;
+    height: 100vh;
+    background-image: url(imagenes/solcraftcatalogo.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#titulo{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 50%;
+    height: 40%;
+    margin: 30px;
+    text-align: center;
+}
+#titulo h1{
+    margin: 60px 0 20px;
+    letter-spacing: 4px;
+    font-size: 4em;
+    padding: 20px;
+}
+#titulo h3{
+    letter-spacing: 4px;
+    font-size: 3em;
+    padding: 20px;
+}
+.reservas{
+    width: 100%;
+    height: 70vh;
+    margin: 10px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.info{
+    align-self: center;
+    width: 30%;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+.info h1, .info h2, .info h3{
+    text-align: center;
+    line-height: 40px;
+    margin: 8px;
+}
+.info h1{
+    font-size: 2em;
+}
+.info h2{
+    font-size: 1.7em;
+    font-weight: 400;
+}
+.info h3{
+    font-size: 1.3em;
+    line-height: 30px;
+}
+.i2 h1{
+    font-size: 2em;
+}
+.i2 h2{
+    font-size: 1.7em;
+}
+.i3 h3{
+    font-size: 1.3em;
+}
+.i2 h1, .i2 h2, .i2 h3{
+    margin: 10px;
+}
+.precio{
+    align-self: flex-end;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 15%;
+    height: 15%;
+    margin: 20px 40px;
+    text-align: center;
+}
+.precio h1, .precio a{
+    font-family: 'quicksand';
+    font-weight: bold;
+    margin: 8px;
+}
+.precio a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'quicksand'
+}
+.precio a:hover{
+    color: #e76db9;
+}
+#footer1{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.datos{
+    width: 32%;
+    height: 55%;
+    margin: 0 11px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+}
+#pago{
+    border-right: none;
+}
+#maps{
+    width: 80%;
+    height: 40%;
+    margin: 50px;
+}
+#maps img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.datos h1{
+    margin: 20px 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#whatsapp{
+    margin: 0 265px;
+    font-size: 6em;
+}
+#whatsapp:hover{
+    color: #e76db9;
+}
+#integrantes{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.alumnos{
+    width: 20%;
+    height: 100%;
+}
+#equipo{
+    text-align: center;
+    margin: 20px auto;
+}
+.alumnos{
+    padding-left: 75px;
+}
+.foto{
+    width: 80%;
+    height: 80%;
+}
+.foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.texto{
+    width: 80%;
+    height: 25%;
+    text-align: center;
+    padding-top: 10px;
+}
+.texto:hover{
+    color: #e76db9;
+}
+.texto h1{
+    font-size: 1.8em
+}
+.texto h2{
+    font-size: 1.3em; 
+}
+#copy{
+    background-color: rgb(0, 0, 0, 0.7);
+    width: 100%;
+    height: 5vh;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#copy div h2{
+    color: rgb(168, 168, 168);
+}
+#copy a{
+    text-decoration: none;
+    color: rgb(168, 168, 168);
+}
+#copy div{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* estilos para index2 */
+
+#bodyindex2{
+    background-color: #f2b951;  
+}
+.contenedor{
+    width: 100%;
+    height: 93.95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#invisible{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#footer2{
+    width: 100%;
+    height: 1px;
+    margin-bottom: 30px;
+}
+#titulo2{
+    width: 100%;
+    height: 7vh;
+    text-align: center;
+    font-size: 2.5em;
+    border-bottom: 2px solid rgb(0,0,0);
+    padding-bottom: 20px;
+}
+#titulo2 h1{
+    font-family: 'quicksand';
+}
+
+#enviar{
+    width: 100%;
+    height: 7vh;
+    text-align: center;
+}
+.c2{
+    margin-right:80px ;
+}
+.c2 input, .select{
+    border: none;
+    padding: 15px 38px;
+    font-size: 2em;
+    font-family: 'quicksand';
+    margin: 10px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid rgb(0,0,0);
+}
+.select{
+    border: 2px solid rgb(0,0,0);
+}
+.c2 input::placeholder{
+    color: white;
+}
+.select option{
+    font-family: 'quicksand';
+}
+.c3 label, .c3 input{
+    font-size: 2em;
+    margin: 10px 5px;
+    font-family: 'quicksand';
+}
+.c3 h1{
+    font-family: 'quicksand';
+    font-size: 2.3em;
+    margin-top: 8px;
+}
+.c3 textarea{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5em;
+    margin: 21px 0;
+    border: 2px solid rgb(0,0,0);
+    font-family: 'quicksand';
+}
+.c3 textarea::placeholder{ 
+    font-family: 'quicksand';
+    color: white;
+}
+#enviar input{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 20px 80px;
+    font-size: 1.5em;
+    font-family: 'quicksand';
+}
+#enviar input:hover{
+    color: #e76db9;
+    cursor: pointer;
+}
+
+/* estilos para index3 */
+#invisible2{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#titulo3{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+}
+#titulo3 h1{
+    font-family: 'quicksand';
+}
+.cuadro2{
+    width: 45%;
+    height:50% ;
+    margin-top: 20px;
+}
+#enviar2{
+    width: 50%;
+    height: 10%;
+    margin: 10px 0;
+}
+.pregunta{
+    border-bottom: 1px solid black;
+    font-size: 1.7em !important;
+    margin-left: 70px;
+    font-family:'quicksand';
+    font-weight: bold;
+}
+.cuadro2 input{
+    margin: 8px 5px 0 70px;
+}
+.cuadro2 label{
+    font-family: 'quicksand';
+    font-size: 1.2em;
+}
+#text{
+    width: 90%;
+    text-align: center; 
+    font-family: 'quicksand';
+    color: black;
+}
+#text textarea{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5em;
+    border: 2px solid rgb(0,0,0);
+    font-family: 'quicksand';
+    margin-bottom: 10px;
+}
+.s2{
+    margin: 30px 0 0 150px;
+    padding: 15px 25px;
+    font-size: 1.5em;
+}
+.cuadroderecho input, .cuadroderecho .pregunta{
+    margin-left: 150px;
+}
+
+/* css del formulario */
+
+#formulario{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 200px;
+}
+#formulario form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#formulario form label{
+    font-size: 3em;
+    text-align: center;
+    font-weight: bolder;
+}
+#formulario form input{
+    padding: 0 20px;
+    color: black;
+    font-size: 2em;
+    font-family: 'quicksand';
+}
+#log{
+    margin: 10px;
+    padding: 20px 50px;
+    font-size: 2em;
+    color: #e76db9;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-weight: bolder;
+}
+#log:hover{
+    color: #e76db9;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+#formulario2{
+    width: 100%;
+    height: 7vh;
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 2px solid rgb(0,0,0);
+    padding-bottom: 60px;
+}
+#formulario2 h1{
+    font-family: 'quicksand';
+}
+#form_subida{
+    background-color: red;
+    margin: 150px 250px;
+    width: 100%;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 15px 38px;
+    font-size: 2em;
+    margin: 10px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgb(0,0,0);
+}
+#form_subida textarea{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1em;
+    border: 1px solid rgb(0,0,0);
+}
+#form_subida textarea::placeholder{
+    font-weight: bolder;
+}
+#form_subida input{
+    border: none;
+    padding: 15px 38px;
+    font-weight: bolder;
+    font-size: 0.8em !important;
+    margin: 5px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgb(0,0,0);
+}
+#form_subida select, #form_subida select option{
+    font-size: 1em;
+}
+#back{
+    margin: 10px;
+    padding: 10px 30px;
+    font-size: 1.5em;
+    color: #e76db9;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+}
+#back:hover{
+    color: #e76db9;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+#cerrar{
+    margin: 10px;
+    padding: 10px 30px;
+    font-size: 1.5em;
+    color: #e76db9;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+}
+#cerrar:hover{
+    color: #e76db9;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.cont2{
+    margin: -70px 0 ;
+}
+.warnings{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    color: rgb(260, 120, 61);
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 2em;
+}
+#invisiblecompra{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    justify-content: space-evenly;
+    margin-top: -5px;
+}
+.cuadro{
+    width: 45%;
+    height: 60vh;
+}
+#imagencompra{
+    background-size: cover;
+    margin-top: 20px;
+}
+#detallecompra h2{
+    margin-top: 10px;
+    font-size: 2em;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
+    padding: 20px 10px;
+}
+#detallecompra h1{
+    font-size: 4em;
+    margin: 30px 0;
+}
+.e2{
+    margin-top: 50px;
+}
+#tabla{
+    background-color: #f2b951;
+    font-family: 'quicksand';
+    font-size: 1.5em;
+}
+#table{
+    width: 70%;
+    height: 70%;
+    background-color:rgba(231, 136, 32, 0.7) ;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+#vol{
+    margin: 10px;
+    padding: 10px 30px;
+    font-size: 1.5em;
+    color: #e76db9;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+
+}
+#vol:hover{
+    color: #e76db9;
+    background-color: rgba(255, 255, 255, 0.7);
+}
